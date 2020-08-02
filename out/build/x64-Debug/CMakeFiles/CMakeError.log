@@ -1,0 +1,25 @@
+Looking for a CUDA compiler failed with the following output:
+-- The CUDA compiler identification is unknown
+CMake Error at CMakeLists.txt:2 (project):
+  No CMAKE_CUDA_COMPILER could be found.
+
+  Tell CMake where to find the compiler by setting either the environment
+  variable "CUDACXX" or the CMake cache entry CMAKE_CUDA_COMPILER to the full
+  path to the compiler, or to the compiler name if it is in the PATH.
+
+
+-- Configuring incomplete, errors occurred!
+See also "D:/Project/code/darknet-master/out/build/x64-Debug/CMakeFiles/CheckCUDA/CMakeFiles/CMakeOutput.log".
+See also "D:/Project/code/darknet-master/out/build/x64-Debug/CMakeFiles/CheckCUDA/CMakeFiles/CMakeError.log".
+
+Determining if the include file pthread.h exists failed with the following output:
+Change Dir: D:/Project/code/darknet-master/out/build/x64-Debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/Program Files (x86)/Microsoft Visual Studio/2019/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/Ninja/ninja.exe cmTC_5b1dd && [1/2] Building C object CMakeFiles\cmTC_5b1dd.dir\CheckIncludeFile.c.obj
+FAILED: CMakeFiles/cmTC_5b1dd.dir/CheckIncludeFile.c.obj 
+"C:\PROGRA~2\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.25.28610\bin\HostX64\x64\cl.exe"  /nologo   /DWIN32 /D_WINDOWS /W3  /MDd /Zi /Ob0 /Od /RTC1 /showIncludes /FoCMakeFiles\cmTC_5b1dd.dir\CheckIncludeFile.c.obj /FdCMakeFiles\cmTC_5b1dd.dir\ /FS -c CheckIncludeFile.c
+CheckIncludeFile.c(1): fatal error C1083: Cannot open include file: 'pthread.h': No such file or directory
+ninja: build stopped: subcommand failed.
+
+
+

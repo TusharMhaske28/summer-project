@@ -1,0 +1,78 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"hasInstallRule" : true,
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.12"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2
+					]
+				}
+			],
+			"name" : "Debug",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "Darknet",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "dark::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-dark-Debug-e6dfa16b61308684ff66.json",
+					"name" : "dark",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "darknet::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-darknet-Debug-8c6c0f6bbf0a743a5676.json",
+					"name" : "darknet",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "uselib::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-uselib-Debug-bedbff3185d2f85d8867.json",
+					"name" : "uselib",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "D:/Project/code/darknet-master/out/build/x64-Debug",
+		"source" : "D:/Project/code/darknet-master"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 0
+	}
+}
